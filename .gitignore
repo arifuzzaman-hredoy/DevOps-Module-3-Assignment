@@ -1,0 +1,24 @@
+# AWS credentials and private keys
+*.pem
+*.key
+.aws/
+.env
+.env.*
+!.env.example
+
+# SSH private keys
+id_rsa
+id_ed25519
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
